@@ -1,0 +1,20 @@
+.donate-section{
+    background-color: #f5f7fa;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+}
+
+
+.donate-section p{
+    /* font-family: 'jazeera' !important; */
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 1.2rem;
+    font-weight: 550;
+    line-height: 1.4em;
+    letter-spacing: 0.15px;
+}
+.donate{
+    padding-right: 10rem;
+    padding-left: 10rem;
+}

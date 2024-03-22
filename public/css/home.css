@@ -1,0 +1,389 @@
+.header-section{
+    width: 100%;
+    background-image: url("../assets/images/header.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 340px;
+    
+}
+.bg-header{
+    background-image: linear-gradient(45deg, #182b16 23% ,#1c2f1a 72%);
+    opacity:0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    
+}
+.custom-nav-link{
+    color:#FFF !important;
+}
+
+
+
+.over-view{
+    background-color: #f7f7f9;
+    width: 100%;
+    height: 650px;
+    /* display: flex; */
+
+    justify-content: center;
+    padding-top: 8rem;
+    
+    /* align-items: center; */
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.over-view h2{
+    color: #6ec1e4;
+    margin-bottom: 3rem;
+}
+.over-view p{
+    margin-bottom: 1.2rem;
+}
+
+#slider{
+
+    padding-top: 5rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f8fbfb;
+    width: 100%;
+    height: 650px;
+    /* padding: 10px; */
+}
+#carouselExampleControls{
+    width: 800px;
+    margin: auto; /* Center the div horizontally */
+    margin-top:2rem;
+    transition: 0.2s;
+}
+#carouselExampleControls:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+#slider img{
+    max-width: 100%;
+    height: 400px; 
+}
+
+.slides {
+    display: flex; /* Use flexbox for slides */
+    transition: transform 0.5s ease; /* Smooth transition effect */
+}
+
+.carousel-item {
+    flex: 0 0 100%; /* Each slide takes up full width of the slider */
+    height: 100%; /* Each slide takes up full height of the slider */
+}
+
+.carousel-item img {
+    width: 100%; /* Image takes up full width of the slide */
+    height: 100%; /* Image takes up full height of the slide */
+    object-fit: cover; /* Ensure image fills the slide without stretching */
+}
+
+#gallary{
+    background-color: #f7f7f9;
+    width:100%;
+    padding-top:4rem;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    text-align: center;
+    color:#4F5455;
+    font-weight: bold;
+    direction: rtl;
+}
+
+
+#gallary p{
+    font-family: 'jazeera' !important;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+#gallary img{
+    /* width: 100%;
+    height: auto; */
+    border-radius: 15px;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    transition: 0.2s;
+}
+#gallary img:hover{
+    opacity: 0.9;
+}
+ .card{
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #E3E3E3;
+    background-color: inherit;
+    border-radius: 15px;
+    transition-property: background;
+    transition-duration: 0.3s;
+    margin-right:1rem;
+    margin-top: 1rem;
+  }
+  .card:hover {
+  
+    background-color: #e3e8ff;
+  } 
+
+
+.statistics{
+    background-color: #f7f7f9;
+    padding-top: 3rem;
+    text-align: center;
+
+    
+}
+
+.statistics .statistics-section{
+    width: 100%;
+    background-image: url('../../assets/images/statistics.jpg');
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    position: relative;
+    height: 400px;
+}
+.statistics-bg{
+    background-image: linear-gradient(180deg, #6ec1e4 0%, #61ce70 100%) ;
+    opacity:0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    
+}
+.statistics .pattern{
+
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 3rem;
+    /* align-items: center; */
+    /* text-align: center; */
+    font-weight: bold;
+    color: #f5f1f1;
+    
+}
+.statistics .pattern div{
+    width: 25%;
+}
+
+#map{
+    width: 100%;
+    height: 800px;
+    background-color: #FFF;
+    padding-top: 5rem;
+    padding-right: 12rem; 
+    padding-left: 12rem;
+
+}
+.form-control{
+    background-color: #fafafa;
+    direction: rtl;
+}
+.map-social{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+
+/* responsive part */
+
+
+#promo{
+    background-color: #f7f7f9;
+    padding-right: 10em;
+    padding-left: 10em;
+    text-align: center;
+}
+.video-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.video img {
+    width: 100%;
+    height: auto;
+    transition: 0.2s;
+}
+.video:hover .video-img {
+    filter: brightness(80%);
+}
+
+.video-popup {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.video-popup-content {
+    position: relative;
+    background-color: rgba(0,0,0,0.5);
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 700px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 60px;
+    height: 60px; */
+    /* background-image: url('play-button.png'); */
+    /* background-size: cover; */
+    transition: 0.2s;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.video:hover .play-button {
+    opacity: 0.9;
+}
+
+.close {
+    color:#fff;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+/* responsive part */
+@media only screen and (max-width: 1500px) {
+
+    .frame-map{
+        width:500px;
+     
+    } 
+    #map{
+        padding-right: 6rem; 
+        padding-left: 6rem;
+    }
+
+}
+@media only screen and (max-width: 1025px) {
+    .over-view{
+        margin-bottom: 20rem;
+    }
+}
+@media only screen and (max-width: 800px) {
+    
+    .over-view{
+        margin-bottom: 30rem;
+        padding-left:0;
+    }
+    
+    .over-view img {
+        height: 300px;
+        width: 300px;
+    }
+    #carouselExampleControls{
+        width: 500px;
+    }
+    #slider img{
+        width: 500px;
+    }
+    #slider img{
+        height: 200px; 
+    }
+    .frame-map{
+        width:500px;
+        height: 350px;
+    } 
+    .over-view img{
+        display: block;
+    }
+    #promo{
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .over-view{
+        margin-bottom: 40rem;
+        
+    }
+    #carouselExampleControls{
+        width: 400px;
+    }
+   
+    #slider{
+        padding-top: 20rem;
+    }
+    #gallary{
+        margin-right: 3rem;
+        margin-left: 3rem;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    #map{
+        padding-right: 0rem; 
+        padding-left: 0rem;
+    }
+    .frame-map{
+        width:400px;
+        height: 300px;
+    }  
+}
+
+@media only screen and (max-width: 420px) {
+    .over-view{
+        margin-bottom: 50rem;
+        
+    }
+    .frame-map{
+        width:250px;
+        height: 200px;
+    }     
+}
+
+@media only screen and (max-width: 321px) {
+    .over-view{
+        margin-bottom: 60rem;
+        
+    }
+    .over-view img {
+        height: 200px;
+        width: 200px;
+    }
+    #carouselExampleControls{
+        height: 100px; 
+        width: 250px;
+    }
+    
+    #gallary{
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+}
+
